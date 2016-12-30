@@ -1,0 +1,197 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/site.master" AutoEventWireup="true" CodeFile="site-products.master.cs" Inherits="site_products" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="Server">
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
+    <div class="site">
+        <asp:ContentPlaceHolder ID="sitemain" runat="server">
+
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="wrap-pro container">
+        <div class="aside-left">
+            <section class="filter-price">
+                <h3>Lọc theo giá</h3>
+                <p>
+                    <span id="amount-left" class="amount"></span>
+                    <span id="amount-right" class="amount"></span>
+                </p>
+                <div class="clr"></div>
+                <div id="slider"></div>
+            </section>
+            <section class="sec-pro">
+                <h3>thương hiệu</h3>
+                <ul>
+                    <li>
+                        <asp:CheckBox ID="CheckBox1" runat="server" />
+                        Zalora</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox2" runat="server" />
+                        K&K Fashion</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox3" runat="server" />
+                        Bella Moda</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox4" runat="server" />
+                        CHERRY TREE</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox5" runat="server" />
+                        FANTASYG</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox6" runat="server" />
+                        Cocoxi</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox7" runat="server" />
+                        Zalora</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox8" runat="server" />
+                        K&K Fashion</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox9" runat="server" />
+                        Bella Moda</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox10" runat="server" />
+                        CHERRY TREE</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox11" runat="server" />
+                        FANTASYG</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox12" runat="server" />
+                        Cocoxi</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox13" runat="server" />
+                        Zalora</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox14" runat="server" />
+                        K&K Fashion</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox15" runat="server" />
+                        Bella Moda</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox16" runat="server" />
+                        CHERRY TREE</li>
+                </ul>
+            </section>
+            <section class="sec-pro color">
+                <h3>màu sắc</h3>
+                <ul>
+                    <li>
+                        <asp:CheckBox ID="CheckBox17" runat="server" />
+                        Nhiều màu</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox18" runat="server" />
+                        Xanh lá</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox19" runat="server" />
+                        Hồng</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox20" runat="server" />
+                        Xanh biển</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox21" runat="server" />
+                        Nâu</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox22" runat="server" />
+                        Xám</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox23" runat="server" />
+                        Trắng</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox24" runat="server" />
+                        Đen</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox25" runat="server" />
+                        Tím</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox26" runat="server" />
+                        Đỏ</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox27" runat="server" />
+                        Vàng</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox28" runat="server" />
+                        Khác</li>
+                </ul>
+            </section>
+            <section class="sec-pro">
+                <h3>chất liệu</h3>
+                <ul>
+                    <li>
+                        <asp:CheckBox ID="CheckBox29" runat="server" />
+                        Cát len</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox30" runat="server" />
+                        Chiffon</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox31" runat="server" />
+                        Cotton</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox32" runat="server" />
+                        Lụa tafta</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox33" runat="server" />
+                        Thun lụa</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox34" runat="server" />
+                        Khác</li>
+                </ul>
+            </section>
+            <section class="sec-pro">
+                <h3>kiểu dáng</h3>
+                <ul>
+                    <li>
+                        <asp:CheckBox ID="CheckBox35" runat="server" />
+                        Cổ tròn</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox36" runat="server" />
+                        Cổ chữ V</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox37" runat="server" />
+                        Form dài</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox38" runat="server" />
+                        Dáng sương</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox39" runat="server" />
+                        Jumsuit</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox40" runat="server" />
+                        Hai dây</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox41" runat="server" />
+                        Sát nách</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox42" runat="server" />
+                        Tay con</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox43" runat="server" />
+                        Tay lửng</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox44" runat="server" />
+                        Tay ngắn</li>
+                </ul>
+            </section>
+            <section class="sec-pro">
+                <h3>giá</h3>
+                <ul>
+                    <li>
+                        <asp:CheckBox ID="CheckBox45" runat="server" />
+                        < 200.000đ</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox46" runat="server" />
+                        200.000đ - 300.000đ</li>
+                    <li>
+                        <asp:CheckBox ID="CheckBox47" runat="server" />
+                        500.000đ - 1.000.000đ</li>
+                </ul>
+            </section>
+        </div>
+        <div class="main-pro">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</asp:Content>
+

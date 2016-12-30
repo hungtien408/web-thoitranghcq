@@ -1,0 +1,221 @@
+﻿.ipadmo-992 { /* ẩn nút menu */
+    display: none;
+}
+@media screen and (max-width: 1230px){
+    .container {
+        width:1170px;
+    }
+    #header .right-head {
+        padding-left:10px;
+    }
+    #footer .footer-left {
+        width:780px;
+    }
+
+    /* dathang */
+    .order-left {
+        width:calc(100% - 420px);
+    }
+    .order-form .form-w label {
+        margin:0 !important;
+        opacity: 1 !important;
+        width:100%;
+    }
+    .order-form .form-w .select {
+        width:calc(33.3333% - 4px);
+        margin-right:0;
+    }
+    .order-form .form-w .input-form {
+        width:100% !important;
+    }
+    .order-left .radio-form .radio-box {
+        margin-left:0;
+    }
+
+    /* products */
+    .main-pro {
+        width:calc(100% - 280px);
+    }
+
+}
+@media screen and (max-width: 1199px){
+    .container {
+        width:980px;
+    }
+    #header .logo {
+        width:150px;
+        margin-top:28px;
+    }
+    #header .right-head .menu-desktop > ul > li {
+        padding:0 15px;
+    }
+    #header .right-head .menu-desktop > ul > li > a {
+        font-size:14px;
+    }
+    .camket .item {
+        width:calc(50% - 4px);
+        margin-bottom:5px;
+    }
+    .pro-cate .item {
+        width:calc(33.3333% - 4px);
+    }
+    #footer .footer-left {
+        width:100%;
+    }
+    #footer .footer-right {
+        width:100%;
+        margin-top:25px;
+    }
+    /* products */
+    .wrap-pro-cate .pro-cate .item {
+        width: calc(50% - 4px);
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+    
+}
+@media (max-width: 992px) {
+    .ipadmo-992 { /* hiện menu đt */
+        display: block;
+    }
+    .desktop-992 { /* ẩn menu pc */
+        display: none;
+    }
+}
+@media screen and (max-width: 991px){
+    .container {
+        width:750px;
+    }
+    #header .right-head .menu-desktop {
+        float: right;
+        margin-top: 20px;
+    }
+    .pro-cate .item {
+        width:calc(50% - 4px);
+    }
+
+    /* dat hang */
+    .order-left {
+        width:100%;
+    }
+    .oder-right {
+        width:100%;
+        margin-left:0;
+    }
+
+    /* products */
+    .product-left {
+        width:100%;
+        text-align:center;
+    }
+    #sliderGallery.gallery-slider {
+        width:50%;
+    }
+    .aside-left {
+        width: 100%;
+    }
+    .main-pro {
+        width:100%;
+    }
+    #sliderGallery .gallery-smalls {
+        width:100%;
+    }
+    .slider-for {
+        width:100%;
+    }
+    .product-right {
+        padding-left: 0;
+        width: 100%;
+    }
+    .nav-tabs, .tab-content {
+        padding-left:0;
+    }
+}
+@media screen and (max-width: 970px) {
+   
+}
+@media screen and (max-width: 820px) {
+
+}       
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px){ 
+	
+}
+@media screen and (max-width: 767px){
+    .container {
+        width:95%;
+    }
+    .cate-thuonghieu .cate-item .item {
+        width:calc(50% - 4px);
+    }
+}
+@media screen and (max-width: 639px){
+    .pro-cate .item {
+        width:100%;
+    }
+	#footer .footer-left section {
+        width: 100%;
+    }
+
+    /* dat hang */
+    .order-left .radio-form .radio-left{
+        width:100%;
+        margin-bottom:15px;
+    }
+    .order-left .radio-form .radio-right{
+        width:100%;
+    }
+
+    /* products */
+    .wrap-pro-cate .pro-cate .item {
+        width:100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .camket .item {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .cate-thuonghieu .cate-item .item {
+        width:100%;
+    }
+    #header .right-head {
+        width:calc(100% - 154px);
+    }
+
+    /* dat hang */
+    .order-form .form-w .select {
+        width:100%;
+    }
+    /* products */
+    #sliderGallery.gallery-slider {
+        width:75%;
+    }
+}
+@media screen and (max-width: 420px){
+    .popup .popup-content {
+        width:300px;
+    }
+    .popup_1 .popup-content {
+        width:300px;
+    }
+    .form-popup > h3 {
+        font-size: 12px;
+    }
+    #footer .footer-right input[type="text"] {
+        width:245px;
+    }
+    .copyright p {
+        font-size:11px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #header .right-head .ico-head {
+        margin-top: 0px;
+        position: absolute;
+        right: 10px;
+        top: 0;
+    }
+}
